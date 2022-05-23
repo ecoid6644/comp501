@@ -1,4 +1,5 @@
 # comp501
-idk test
+Assignment 3
 
-test haruki push
+The ethical implications of Human Computer Interaction:
+The implications of Brain Computer Interfaces on data privacy and user safety​.
