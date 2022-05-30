@@ -124,7 +124,7 @@ a:hover{
 
 /* main first body */
 .home {
-   background: url("../img/1.jpg") ;
+   background: url("../img/2.jpg") ;
    background-size: cover;
    background-position: center;
    height: 110%;
@@ -147,10 +147,17 @@ a:hover{
 /* header inside of top body */
 .home > .home-text > h1 {
   color: #E5E4E6;
-  font-size: 130px;
+  font-size: 55px;
   margin-top: -150px;
   position: absolute;;
 
+}
+
+.home > .home-text > h2
+{
+  color: #E5E4E6;
+  font-size: 35px;
+  position: absolute;;
 }
 
 .about {
