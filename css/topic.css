@@ -1,0 +1,169 @@
+/* rules for whole page */
+html, body {
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   font-family: "Jost";
+   background-color: #E5E4E6;
+}
+
+/* allignment for text */
+.text-center {
+   text-align: center;
+}
+
+/* navigation bar positioning */
+.navbar {
+   background: transparent;
+   min-height: 70px;
+   width: 100%;
+   z-index:1;
+   padding: 0;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* putting navigation bar in a line */
+.navnar #links,#logo {
+display: inline-block;
+}
+
+/* styling navigation links */
+.navnar #links {
+   list-style: none;
+   padding: 0;
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 20px 25px 0 0;
+}
+
+/* styling navigation links */
+.navbar > #links.visible {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0,0,0,0.7);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+/* link styling */
+.navbar #links > li {
+   display: inline-block;
+   color: #fff;
+   font-size: 18px;
+   padding: 33px;
+}
+
+/* styling buttons in navigation */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    border-radius: 1rem;
+    background-color: #C3B1E1;
+}
+
+/* style for unordered list */
+ul {
+   width: auto;
+   float: none;
+   display: inline-block;
+   margin: 0 auto;
+}
+
+/* colour of link */
+a {
+   color: #fff
+}
+
+/* hover colour of link */
+a:hover{
+   color: #FF715B;
+}
+
+/* more button styling */
+.btn-info {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+    border-radius: 1rem;
+    font-size: 16px;
+}
+
+/* hover colour of learn more button */
+.btn-info:hover {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff
+}
+
+/* hover colour for nav-bar buttons */
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+    color:  #C3B1E1;
+  }
+
+/* main first body */
+.part1 {
+   background: url("../img/4.jpg") ;
+   background-size: cover;
+   background-position: center;
+   height: 110%;
+   width: 100%;
+   position: relative;
+   background-attachment: fixed;
+   border-radius: 0 0 1.5em 1.5em;
+ }
+
+ /* text inside of top body */
+ .part1 >  .part1-text {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+/* header inside of top body */
+.part1 > .part1-text > h1 {
+  color: #E5E4E6;
+  font-size: 130px;
+  margin-top: -150px;
+  position: absolute;
+  text-align: center;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about > h3 {
+  color: #333033;
+  font-size: 50px;
+  text-align: center;
+  max-width: 70%;
+
+}
+
+.about > p {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
